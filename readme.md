@@ -1,3 +1,11 @@
+## Modificaciones:
+
+Este repositorio contiene una modificacion en el modelo "User" de forma que la atenticacion sea mediante usuario y contraseña, no como normalmente se manela en las configuraciones por default de Laravel que es mediante usuario e email. Este modelo esta generado de tal manera que funcione con una tabla con los siguientes campos:
+	-users
+	-password
+	-remmenber_token
+El modelo tambien contien las configuraciones mas actuales para el inicio de sesion, como lo son que la tabla de usuarios debe contener el campo mencionado arriba "remember_tolen", este campo debe ser de tipo "VARCHAR" con una longitud minima de 120.
+
 ## Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
